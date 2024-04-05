@@ -3,6 +3,7 @@ import SearchBar from "./Components/SearchBar";
 import "./App.css";
 import searchImages from './API'
 import ImageList from "./Components/ImageList";
+import Profiles from "./Components/Profiles";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+      <Profiles />
       <SearchBar onSubmit={handleSubmit}/>
       <ImageList images={images}/>
     </>

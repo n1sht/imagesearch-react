@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 2em;
+  gap: 0.3em;
+  margin: 1em;
+  padding: 0.3em;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.05);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.iconlink {
+  text-decoration: none;
+  display: flex;
+  color: #333;
+  transition: 0.1s;
+}
+
+@keyframes colorCycle {
+  0% {
+    color: #7fccff; 
+  }
+  25% {
+    color: #6a97db; 
+  }
+  50% {
+    color: #576ac2; 
+  }
+  75% {
+    color: #4948af; 
+  }
+  100% {
+    color: #4d3191; 
+  }
+}
+
+
+.iconlink:hover {
+  animation: colorCycle 2s ease infinite alternate;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 625px) {
+  .logos {
+    font-size: 1.2em;
+  }
+}
+
