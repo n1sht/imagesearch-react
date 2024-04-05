@@ -41,4 +41,7 @@
   .search-bar label {
     font-size: 1em;
   }
+  .search-bar input {
+    width: 100%;
+  }
 }
