@@ -1,0 +1,26 @@
+HTTP Request -> Server -> HTTP Response
+
+Request Line              Status Line   
+(GET something)           
+
+Headers(Authentication)   Headers
+
+Body                      Body -> information we need
+--------------------------------------------------------
+
+GET -> request method
+POST    ""
+PUT     ""
+PATCH   ""
+DEL     ""
+
+--------------------------------------------------------
+Status Line Number -> Response Status code. (Done or not?)
+
+2 -> Successful
+3 -> Redirected 
+4 -> Bad Request
+5 -> Server failed to process
+
+--------------------------------------------------------
+Axios -> JS library to get started with API and shit 

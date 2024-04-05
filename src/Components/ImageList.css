@@ -1,0 +1,23 @@
+.images {
+  columns: 6 200px;
+  column-gap: 10px;
+  margin: 0 2em;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .images {
+    margin: 0px 20em; /* Adjusted margin for larger screens */
+  }
+}
+
+@media screen and (max-width: 390px){
+  .images {
+    margin: 0 10px 0 10px;
+  }
+}
